@@ -6,6 +6,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import NavigatinBar from './components/NavigatinBar'
 import Home from "./components/Home";
+import Viewcar from "./components/Viewcar";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
     <>
       <NavigatinBar/>
       <Home/>
+      <Viewcar/>
       
     </>
   )
