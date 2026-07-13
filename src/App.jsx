@@ -8,7 +8,7 @@ import NavigatinBar from './components/NavigatinBar'
 import Home from "./components/Home";
 import AddCar from "./components/AddCar";
 import Viewcar from "./components/Viewcar";
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0)
