@@ -7,6 +7,8 @@ import './App.css'
 import NavigatinBar from './components/NavigatinBar'
 import Home from "./components/Home";
 import AddCar from "./components/AddCar";
+import Viewcar from "./components/Viewcar";
+import { BrowserRouter, Routes } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +19,14 @@ function App() {
       <NavigatinBar/>
       <Home/>
       <AddCar/>
+     <BrowserRouter>
+     <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/add" element={<AddCar/>}/>
+      <Route path="/view" element={<Viewcar/>}/>
+     </Routes>
+     </BrowserRouter>
+      
     </>
   )
 }
