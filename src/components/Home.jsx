@@ -1,7 +1,10 @@
 import React from "react";
+import NavigatinBar from "./NavigatinBar";
 
 const Home = () => {
   return (
+    <div>
+        <NavigatinBar/>
     <div
       style={{
         fontFamily: "Arial, sans-serif",
@@ -108,6 +111,7 @@ const Home = () => {
           <p>Reliable cars and excellent customer support.</p>
         </div>
       </div>
+    </div>
     </div>
   );
 };

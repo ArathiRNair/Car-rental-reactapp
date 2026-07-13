@@ -16,9 +16,6 @@ function App() {
   return (
     
     <>
-      <NavigatinBar/>
-      <Home/>
-      <AddCar/>
      <BrowserRouter>
      <Routes>
       <Route path="/" element={<Home/>}/>
