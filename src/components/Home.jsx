@@ -2,6 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
+    <div>
     <div className="bg-gray-50 min-h-screen">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white">
@@ -171,6 +172,7 @@ const Home = () => {
           </button>
         </div>
       </section>
+    </div>
     </div>
   );
 };
