@@ -6,6 +6,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import NavigatinBar from './components/NavigatinBar'
 import Home from "./components/Home";
+import AddCar from "./components/AddCar";
 import Viewcar from "./components/Viewcar";
 import { BrowserRouter, Routes } from "react-router-dom";
 
@@ -15,6 +16,9 @@ function App() {
   return (
     
     <>
+      <NavigatinBar/>
+      <Home/>
+      <AddCar/>
      <BrowserRouter>
      <Routes>
       <Route path="/" element={<Home/>}/>
