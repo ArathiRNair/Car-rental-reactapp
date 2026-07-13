@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
+import NavigatinBar from './NavigatinBar';
 
 
 
@@ -37,7 +38,7 @@ const Viewcar = () => {
 
     return (
         <div>
-            
+            <NavigatinBar/>
             <table class="table">
                 <thead>
                     <tr>
